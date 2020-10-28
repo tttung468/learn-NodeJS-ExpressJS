@@ -1,0 +1,32 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --inspect index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tttung468/learn-NodeJS-ExpressJS.git"
+  },
+  "keywords": [
+    "learn",
+    "NodeJS",
+    "learn",
+    "ExpressJS"
+  ],
+  "author": "ThanhTung",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tttung468/learn-NodeJS-ExpressJS/issues"
+  },
+  "homepage": "https://github.com/tttung468/learn-NodeJS-ExpressJS#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
