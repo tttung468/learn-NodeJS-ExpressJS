@@ -1,0 +1,24 @@
+- Cài đặt NodeJS
+	+ Khởi tạo project NodeJS: npm init (package name, entry point, git repository...)
+	  ===> Tạo ra file package.json
+	+ Tạo entry point: index.js
+- Cài đặt ExpressJS
+	+ npm install express 
+	  ===> mở mục dependency trong file package.json để kiểm tra đã được cài đặt
+- Thư viện nodemon : giúp tự động restart file sau khi được sử đổi
+	+ npm i nodemon --save-dev
+	  ===> devDependency
+	+ chạy index.js bằng nodemon
+	  ===> vào mục "scripts" ở file package.json, thêm lệnh "start"
+	  ===> flag --inspect để debug project
+	  ===> chạy index.js ở cửa sổ terminal: npm start
+	+ Nodemon chỉ quan sát các file js, mjs, json
+	  ===> tạo file nodemon.json, đưa đuôi .scss vào
+- Thư viện morgan : quan sát các log request từ phía client lên node server 
+	+ npm i morgan --save-dev
+- Thư viện Handlesbars (Template engine): cấu trúc lại các thư mục của project
+	+ npm i express-handlebars
+- Thư viện Node-sass: compile .scss -> css
+	+ npm i node-sass -save-dev
+	  ===> vào mục "scripts" ở file package.json, thêm lệnh "watch"
+	  ===> npm run watch
